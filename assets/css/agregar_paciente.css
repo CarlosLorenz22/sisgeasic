@@ -1,0 +1,63 @@
+/* Reduce el tamaño visual del formulario */
+#formAgregarPaciente {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px 16px 0 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+#formAgregarPaciente .form-group label {
+    font-size: 0.97rem;
+}
+#formAgregarPaciente input, #formAgregarPaciente select, #formAgregarPaciente textarea {
+    font-size: 0.97rem;
+    padding: 0.35rem 0.75rem;
+}
+#formAgregarPaciente .btn {
+    font-size: 1rem;
+}
+/* Solo borde verde para campos válidos */
+#formAgregarPaciente input.form-control.is-valid,
+#formAgregarPaciente select.form-control.is-valid:not([multiple]),
+#formAgregarPaciente textarea.form-control.is-valid {
+    border-color: #28a745 !important;
+    box-shadow: 0 0 0 0.1rem rgba(40,167,69,.25) !important;
+    background-image: none !important;
+    padding-right: 0.75em !important;
+}
+#formAgregarPaciente input.form-control.is-invalid,
+#formAgregarPaciente select.form-control.is-invalid,
+#formAgregarPaciente textarea.form-control.is-invalid {
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.1rem rgba(220,53,69,.25) !important;
+    background-image: none !important;
+}
+#formAgregarPaciente input[type="date"].is-valid {
+    border-color: #28a745 !important;
+    box-shadow: 0 0 0 0.1rem rgba(40,167,69,.25) !important;
+    background-image: none !important;
+    padding-right: 0.75em !important;
+}
+#formAgregarPaciente input[type="date"].is-invalid {
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.1rem rgba(220,53,69,.25) !important;
+    background-image: none !important;
+}
+#generoGroup .form-check-input.is-valid {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #28a745 !important;
+}
+#generoGroup .form-check-input.is-invalid {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #dc3545 !important;
+}
+#generoGroup .form-check-input {
+    border: 2px solid #ced4da;
+    border-radius: 50%;
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: 0.2em;
+    margin-right: 0.3em;
+    vertical-align: middle;
+}

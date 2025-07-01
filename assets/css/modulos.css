@@ -1,0 +1,12 @@
+.sidebar .nav-link span {
+
+    font-weight: bold;
+    /* Hacer las letras más gruesas */
+}
+
+/* Aumentar contraste en las tarjetas */
+.card .text-xs {
+
+    font-weight: bold;
+    /* Hacer las letras más gruesas */
+}

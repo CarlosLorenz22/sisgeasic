@@ -1,0 +1,10 @@
+{
+    "require-dev": {
+        "laravel/breeze": "^2.3"
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.4",
+        "phpoffice/phpexcel": "^1.8",
+        "dompdf/dompdf": "^3.1"
+    }
+}
